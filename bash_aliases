@@ -21,3 +21,4 @@ alias esTasks="curl -s -XGET ${MASTER}:9200/_cluster/pending_tasks?pretty=1 | gr
 
 ## transient cluster settings
 alias esCSet="curl -s -XGET ${MASTER}:9200/_cluster/settings?pretty"
+
